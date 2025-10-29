@@ -14,4 +14,4 @@ function reordenarPalabras (texto) {
 
 //Ingresar y mostrar
 let texto = prompt("Ingresar un texto:");
-alert("Cadena: "+reordenarPalabras(texto));
+alert("Cadena: ["+reordenarPalabras(texto)+"]");
