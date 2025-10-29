@@ -15,5 +15,5 @@ function filtrarYMostrar(arreglo) {
 
 //Ingresar y mostrar información
 let arreglo = [-2, 3, -5, 4];
-alert("Arreglo: "+arreglo+"\nSuma total (postivos al cuadrado): "+filtrarYMostrar(arreglo));
+alert("Arreglo: ["+arreglo+"]\nSuma total (postivos al cuadrado): "+filtrarYMostrar(arreglo));
 
