@@ -19,7 +19,7 @@ function contarPalabras (texto) {
 let texto = prompt("Ingrese texto:");
 let mapaTexto = contarPalabras(texto);
 
-let mostrarTexto = "Palabras \n";
+let mostrarTexto = "Palabras: \n";
 for (let [palabra, cantidad] of mapaTexto) {
     mostrarTexto += palabra + " --> "+ cantidad + "\n";
 }
